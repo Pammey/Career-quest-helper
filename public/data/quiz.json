@@ -1,0 +1,166 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "question": "What type of work environment do you prefer?",
+      "options": [
+        {
+          "text": "Fast-paced and dynamic",
+          "scores": { "entrepreneurship": 3, "technology": 2, "business": 2, "creative": 1 }
+        },
+        {
+          "text": "Structured and organized",
+          "scores": { "finance": 3, "healthcare": 2, "engineering": 2, "education": 1 }
+        },
+        {
+          "text": "Creative and flexible",
+          "scores": { "creative": 3, "design": 3, "marketing": 2, "technology": 1 }
+        },
+        {
+          "text": "Collaborative and people-focused",
+          "scores": { "education": 3, "healthcare": 2, "hr": 2, "social": 3 }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "question": "Which activities energize you the most?",
+      "options": [
+        {
+          "text": "Solving complex problems",
+          "scores": { "engineering": 3, "technology": 3, "science": 2, "finance": 1 }
+        },
+        {
+          "text": "Helping and teaching others",
+          "scores": { "education": 3, "healthcare": 2, "social": 3, "hr": 2 }
+        },
+        {
+          "text": "Creating and designing",
+          "scores": { "creative": 3, "design": 3, "marketing": 2, "architecture": 2 }
+        },
+        {
+          "text": "Leading and strategizing",
+          "scores": { "business": 3, "entrepreneurship": 3, "management": 2, "consulting": 2 }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "slider",
+      "question": "How important is work-life balance to you?",
+      "min": 1,
+      "max": 10,
+      "scoreMapping": {
+        "low": { "entrepreneurship": 2, "consulting": 2, "finance": 1 },
+        "medium": { "technology": 2, "business": 2, "engineering": 1 },
+        "high": { "education": 3, "hr": 2, "creative": 2, "government": 3 }
+      }
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "question": "What motivates you most in your career?",
+      "options": [
+        {
+          "text": "Financial success and growth",
+          "scores": { "finance": 3, "entrepreneurship": 3, "business": 2, "consulting": 2 }
+        },
+        {
+          "text": "Making a positive impact",
+          "scores": { "social": 3, "healthcare": 3, "education": 2, "nonprofit": 3 }
+        },
+        {
+          "text": "Innovation and creativity",
+          "scores": { "technology": 3, "creative": 3, "design": 2, "research": 2 }
+        },
+        {
+          "text": "Stability and security",
+          "scores": { "government": 3, "education": 2, "healthcare": 2, "finance": 1 }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "question": "How do you prefer to learn new skills?",
+      "options": [
+        {
+          "text": "Hands-on experience",
+          "scores": { "trades": 3, "engineering": 2, "technology": 2, "creative": 2 }
+        },
+        {
+          "text": "Formal education and training",
+          "scores": { "education": 2, "healthcare": 3, "law": 3, "science": 2 }
+        },
+        {
+          "text": "Self-directed learning",
+          "scores": { "technology": 3, "entrepreneurship": 3, "creative": 2, "design": 2 }
+        },
+        {
+          "text": "Mentorship and collaboration",
+          "scores": { "business": 2, "consulting": 3, "hr": 2, "management": 2 }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "slider",
+      "question": "How comfortable are you with uncertainty and risk?",
+      "min": 1,
+      "max": 10,
+      "scoreMapping": {
+        "low": { "government": 3, "education": 2, "healthcare": 2, "accounting": 3 },
+        "medium": { "technology": 2, "engineering": 2, "hr": 2, "marketing": 1 },
+        "high": { "entrepreneurship": 3, "creative": 2, "consulting": 2, "sales": 2 }
+      }
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "question": "Which subject areas interest you most?",
+      "options": [
+        {
+          "text": "Science and Mathematics",
+          "scores": { "engineering": 3, "science": 3, "technology": 2, "data": 3 }
+        },
+        {
+          "text": "Arts and Humanities",
+          "scores": { "creative": 3, "education": 2, "design": 3, "writing": 3 }
+        },
+        {
+          "text": "Business and Economics",
+          "scores": { "business": 3, "finance": 3, "consulting": 2, "entrepreneurship": 2 }
+        },
+        {
+          "text": "Social Sciences and Psychology",
+          "scores": { "hr": 3, "social": 3, "education": 2, "psychology": 3 }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "question": "What type of impact do you want to have?",
+      "options": [
+        {
+          "text": "Build innovative products or services",
+          "scores": { "technology": 3, "entrepreneurship": 3, "engineering": 2, "design": 2 }
+        },
+        {
+          "text": "Improve people's health and wellbeing",
+          "scores": { "healthcare": 3, "psychology": 2, "social": 2, "fitness": 3 }
+        },
+        {
+          "text": "Shape business strategy and growth",
+          "scores": { "business": 3, "consulting": 3, "management": 2, "marketing": 2 }
+        },
+        {
+          "text": "Educate and develop others",
+          "scores": { "education": 3, "training": 3, "hr": 2, "coaching": 3 }
+        }
+      ]
+    }
+  ]
+}
