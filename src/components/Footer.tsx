@@ -84,7 +84,7 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-primary-foreground/20 text-center">
           <p className="text-primary-foreground/80 flex items-center justify-center gap-2">
-            Made with <Heart className="h-4 w-4 fill-current" /> by NextStep Navigator © 2024
+            Made by Team Code Titans for NextStep Navigator © 2025
           </p>
         </div>
       </div>
