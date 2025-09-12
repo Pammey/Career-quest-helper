@@ -1,5 +1,5 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { Compass, Menu, X, LogOut, User } from "lucide-react";
+import { Menu, X, LogOut, User } from "lucide-react";
 import { useState } from "react";
 import {
   DropdownMenu,
@@ -39,7 +39,11 @@ const Header = () => {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2 group">
-            <Compass className="h-8 w-8 text-primary group-hover:rotate-12 transition-transform duration-300" />
+            <img 
+              src="/nextstep-navigator.png" 
+              alt="NextStep Navigator Logo" 
+              className="h-10 w-10 group-hover:scale-110 transition-transform duration-300"
+            />
             <span className="font-heading font-bold text-xl gradient-text">
               NextStep Navigator
             </span>
@@ -65,7 +69,7 @@ const Header = () => {
               <DropdownMenuTrigger asChild>
                 <Button variant="outline" size="sm" className="flex items-center gap-2">
                   <User className="w-4 h-4" />
-                  {userProfile.name || "Profile"}
+                  <span className="hidden sm:inline">Welcome,</span> {userProfile.name || "User"}
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" className="w-56 bg-background border">
