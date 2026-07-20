@@ -28,6 +28,9 @@ npm run dev
 
 ## Screenshots
 
+## Dashboard Login
+![Dashboard](/screenshots/dashboard.png)
+
 ## Home Page
 
 ![Home Page](/screenshots/home.png)
@@ -48,6 +51,7 @@ npm run dev
 - User authentication
 - Backend integration
 - Career recommendation engine
+- Career data is currently static. Future versions will integrate an external API or backend database.
 
 ## Author
 
