@@ -28,6 +28,17 @@ npm run dev
 
 ## Screenshots
 
+## Home Page
+
+![Home Page](/screenshots/home.png)
+
+## Features
+
+![Features](screenshots/features.png)
+
+## Careers
+
+![Careers](screenshots/careers.png)
 
 
 ## Future Improvements
