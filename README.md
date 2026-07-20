@@ -40,6 +40,8 @@ npm run dev
 
 ![Careers](screenshots/careers.png)
 
+## Mobile View
+![Mobile View](screenshots/mobile-view.png)
 
 ## Future Improvements
 
